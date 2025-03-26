@@ -1,0 +1,38 @@
+{
+    "name": "assistant-engine/open-functions-web-search",
+    "description": "",
+    "type": "library",
+    "homepage": "https://github.com/AssistantEngine/open-functions-web-search",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florian Weigang",
+            "email": "florian@assistant-engine.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "assistant-engine/open-functions-core": "dev-development"
+    },
+
+    "require-dev": {
+        "assistant-engine/php-openai-client": "^0.0.4",
+        "nyholm/psr7": "^1.8",
+        "openai-php/client": "^0.10.3",
+        "symfony/http-client": "^7.2",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AssistantEngine\\OpenFunctions\\WebSearch\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
