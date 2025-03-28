@@ -16,7 +16,6 @@
     },
 
     "require-dev": {
-        "assistant-engine/php-openai-client": "^0.0.4",
         "nyholm/psr7": "^1.8",
         "openai-php/client": "^0.10.3",
         "symfony/http-client": "^7.2",
